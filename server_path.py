@@ -16,14 +16,16 @@ parser.add_argument('text', type=str, location='json')
 
 #######Text2Own_KnowledgeGraph
 req_fields2 = {\
-	'text': fields.String()}
-jessica_api_req2 = ns.model('knowledge_graph', req_fields2)
+	'text': fields.String(
+	example = u"Yan Liang is a student at Liverpool John Moores University. She lives in Abu Dhabi.")
+	}
+jessica_api_req2 = ns.model('yan', req_fields2)
 
 rsp_fields2 = {\
 	'status':fields.String,\
 	'running_time':fields.Float\
 	}
-jessica_api_rsp2 = ns.model('knowledge_graph', rsp_fields2)
+jessica_api_rsp2 = ns.model('yan', rsp_fields2)
 
 @ns.route('/knowledge_extraction')
 class jessica_api_own(Resource):
