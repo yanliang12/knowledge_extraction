@@ -17,7 +17,7 @@ parser.add_argument('text', type=str, location='json')
 #######Text2Own_KnowledgeGraph
 req_fields2 = {\
 	'text': fields.String(
-	example = u"Yan Liang is a student at Liverpool John Moores University. She lives in Abu Dhabi.")
+	example = u"Yan Liang is a student at Liverpool John Moores University. She lives in Abu Dhabi. She is Qichu Wang's mother.")
 	}
 jessica_api_req2 = ns.model('yan', req_fields2)
 
