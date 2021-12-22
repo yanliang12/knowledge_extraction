@@ -23,7 +23,7 @@ input example:
 }
 ```
 
-<img src="WeChat%20Screenshot_20211209211116.png" width="800">
+<img src="input.png" width="800">
 
 
 ## see the output
@@ -37,7 +37,7 @@ input one line cypher code
 MATCH p=()-->() RETURN p LIMIT 100
 ```
 
-<img src="WeChat%20Screenshot_20211209204210.png" width="500">
+<img src="output.png" width="500">
 
 
 ## contact
