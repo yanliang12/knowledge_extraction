@@ -25,7 +25,7 @@ rsp_fields2 = {\
 	'status':fields.String,\
 	'running_time':fields.Float\
 	}
-jessica_api_rsp2 = ns.model('yan', rsp_fields2)
+jessica_api_rsp2 = ns.model('output', rsp_fields2)
 
 @ns.route('/knowledge_extraction')
 class jessica_api_own(Resource):
