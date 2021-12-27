@@ -20,11 +20,4 @@ def knowwledge_extraction_to_neo4j(text):
 		triplets, 
 		neo4j_session)
 
-'''
-text = u"""
-Jessica Liang works for Group 42 Inc. She was born in China. She studies at Jiangsu University of Science and Technology. Jessica is married to Smith.
-"""
-
-ingest_knowledge_triplets_to_neo4j(relation_extraction(text), neo4j_session)
-'''
 #####yan_knowledge_extraction_to_neo4j.py#####
