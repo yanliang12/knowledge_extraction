@@ -1,4 +1,4 @@
-# Yan's Knowledge Extraction Engine
+# Knowledge Extraction Engine
 
 ## start the service
 
@@ -42,4 +42,6 @@ MATCH p=()-->() RETURN p LIMIT 100
 
 ## contact
 
-If you want to see a demo from me, or you have a data scientist job opening in UAE, please contact me at yanliang2345@outlook.com
+I can transform your documents to knowledge graph, please contact me to show you the demo and start to build your own knowledge graph
+
+Email: jimjywang@gmail.com
